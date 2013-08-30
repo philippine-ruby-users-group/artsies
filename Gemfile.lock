@@ -218,6 +218,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   launchy
+  less
   less-rails
   rails (= 4.0.0)
   rspec-rails

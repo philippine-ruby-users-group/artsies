@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'devise', '3.1.0.rc2'
 gem 'haml-rails'
+gem 'less'
 gem 'less-rails'
 
 gem 'therubyracer', :platform=>:ruby
