@@ -1,0 +1,26 @@
+== Artsies
+
+An application for the Rails for Designers workshop
+
+This app covers the following topics:
+
+* Understanding MVC
+
+* Building a Basic Rails Application 
+
+* Sqlite3
+
+* Bootstrap 3
+
+* Layouts
+
+* Views
+
+* Partials
+
+* ERB/HAML
+
+* SCSS/LESS
+
+
+2013 MIT License
