@@ -1,10 +1,21 @@
 Artsies::Application.routes.draw do
+  get "pss/index"
+  get "pss/show"
+  get "pss/new"
+  get "pss/edit"
+  get "ps/index"
+  get "ps/show"
+  get "ps/new"
+  get "ps/create"
+  get "ps/edit"
+  get "ps/update"
+  get "ps/delete"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
-
+  resources :products
   get '/samples/:action' => 'samples'
 
   # Example of regular route:
