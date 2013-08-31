@@ -6,6 +6,7 @@
   <h3><%= link_to product.name, product_path(product) %></h3>
   <small><%= product.price %></small>
   <p><%= product.description %></p>
+  <%= link_to "Edit this", edit_product_path(product) %>
   </li>
 <% end %>
 </ul>

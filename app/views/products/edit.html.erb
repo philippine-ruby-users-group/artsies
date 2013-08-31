@@ -2,7 +2,7 @@
 
 <h1>Edit <%= @product.name %></h1>
 <%= link_to "Back to Products", products_path %>
-<%= form_for @product, url: products_path do |f| %>
+<%= form_for @product do |f| %>
   
   <p><%= f.label :name %>
   <%= f.text_field :name %></p>
