@@ -1,6 +1,5 @@
-
-<!-- Example row of columns -->
 <div class="row">
+
   <div class="col-lg-3">
     <h4>Browse</h4>
     <ul class="nav nav-pills nav-stacked">
@@ -8,12 +7,15 @@
       <li><a href="">Accessories</a></li>
     </ul>
   </div>
+
   <div class="products col-lg-9">
     
     <% 10.times do |i| %>
       <div class="product col-sm-6 col-md-4">
         <div class="thumbnail">
-          <img src="http://placekitten.com/g/300/200?i=<%= i %>" alt="" />
+          <a href="#">
+            <img src="http://placekitten.com/g/300/200?i=<%= i %>" alt="" class="img-responsive" />
+          </a>
           <div class="caption">
             <h5>
               <div class="pull-right">$100</div>
@@ -24,5 +26,7 @@
         </div>
       </div>
     <% end %>
- </div>
+
+  </div>
+
 </div>
