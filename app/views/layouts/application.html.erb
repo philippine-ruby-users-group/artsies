@@ -16,7 +16,58 @@
   </head>
 
   <body>
-    <h1>Welcome to my App!</h1>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ARTSIES</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Art</li>
+                <li><a href="#">Prints</a></li>
+                <li><a href="#">Paintings</a></li>
+
+                <li class="divider"></li>
+                <li class="dropdown-header">Fashion</li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="#">Jewelry</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+            </li>
+
+            <li class="active"><a href="#browse">Browse Items</a></li>
+            <li><a href="#contact">Start Selling</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>The home of homegrown crafts</h1>
+        <p>Artsies is a marketplace for the Art Lovers. If you love local crafts then this is the perfect place and community for you!</p>
+      </div>
+    </div>
+
     <div class="container">
       <%= yield %>  
     </div> <!-- /container -->
